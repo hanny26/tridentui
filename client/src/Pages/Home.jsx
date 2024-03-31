@@ -3,7 +3,7 @@ import { Banner } from "../Components/Banner";
 
 const Home = () =>{
     return(
-        <div>
+        <div className="pt-8">
           <Banner />
         </div>
     )

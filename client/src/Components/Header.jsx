@@ -11,19 +11,19 @@ export const Header = () => {
             to="/"
             className="toggleColor text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           >
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekqTkFN-HlLdqwn784cp1xLdps21SgDrBYTQ1fG4Nsg&s" alt="logo" className="w-40 h-40 object-cover rounded-full"/>
+            <img src="https://i.pinimg.com/originals/38/88/49/3888494dd140a90508e30f498b390da6.jpg" alt="logo" className="w-40 h-40 object-cover rounded-full"/>
           </Link>
         </div>
         <div className="nav-menu-wrapper flex items-center justify-between space-x-10">
-          <Link to="/" className="text-xl">
+          <Link to="/" className="text-xl hover:bg-red-400 p-4 rounded-xl">
             Home
           </Link>
-          <Link to="/menu" className="text-xl">
-            Menu
+          <Link to="/about" className="text-xl hover:bg-red-400 p-4 rounded-xl">
+            About
           </Link>
         </div>
-        <div className="flex items-center justify-center space-x-4">
-          <Link to="/cart" className="text-xl">
+        <div className="flex items-center justify-center space-x-4 ">
+          <Link to="/cart" className="text-xl hover:bg-red-400 p-4 rounded-xl">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -41,10 +41,10 @@ export const Header = () => {
               <path d="M1 1h4l2.68 11.413a2 2 0 0 0 1.902 1.446h8.84a2 2 0 0 0 1.902-1.446L23 6H6"></path>
             </svg>
           </Link>
-          <Link to="/login" className="text-xl">
+          <Link to="/login" className="text-xl hover:bg-red-400 p-4 rounded-xl">
             Log In
           </Link>
-          <Link to="/register" className="text-xl">
+          <Link to="/register" className="text-xl hover:bg-red-400 p-4 rounded-xl">
             Sign Up
           </Link>
         </div>

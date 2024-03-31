@@ -15,7 +15,7 @@ export const Banner = () => {
 
       {/* Buttons */}
       <div className="btn-container mt-4 md:mt-0 flex flex-col md:flex-row items-center">
-        <button className="order-btn  text-yellow-300 px-6 py-3 md:mr-4 mb-2 md:mb-0 rounded-lg focus:outline-none hover:bg-red-700">
+        <button className="order-btn  text-yellow-300 px-6 py-3 md:mr-4 mb-2 md:mb-0 rounded-lg focus:outline-none hover:bg-red-400">
                 <a href="/menu" >
           Menu
          </a>

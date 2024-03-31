@@ -6,6 +6,7 @@ import Register from '../Pages/Register';
 import Menu from '../Pages/Menu';
 import Cart from '../Pages/Cart';
 import PaymentSuccess from '../Pages/PaymentSuccess';
+import { About } from '../Components/About.jsx';
 
 
 const Navigation = () => {
@@ -20,6 +21,7 @@ const Navigation = () => {
             <Route path="/menu" element={<Menu />} />
             <Route path="/cart" element={<Cart />} />
             <Route path="/payment-success" element={<PaymentSuccess />} />
+            <Route path="/about" element={<About />} />
 
 
         </Routes>
