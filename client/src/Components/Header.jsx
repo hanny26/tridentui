@@ -11,7 +11,7 @@ export const Header = () => {
             to="/"
             className="toggleColor text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
           >
-            <img src="" alt="logo" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQekqTkFN-HlLdqwn784cp1xLdps21SgDrBYTQ1fG4Nsg&s" alt="logo" className="w-40 h-40 object-cover rounded-full"/>
           </Link>
         </div>
         <div className="nav-menu-wrapper flex items-center justify-between space-x-10">
