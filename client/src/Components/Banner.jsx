@@ -1,4 +1,4 @@
-import Button from "./Elements/Button";
+import React from "react";
 
 export const Banner = () => {
   return (
@@ -15,21 +15,18 @@ export const Banner = () => {
 
       {/* Buttons */}
       <div className="btn-container mt-4 md:mt-0 flex flex-col md:flex-row items-center">
-        <button className="order-btn  text-yellow-300 px-6 py-3 md:mr-4 mb-2 md:mb-0 rounded-lg focus:outline-none hover:bg-red-400">
-                <a href="/menu" >
+        <a
+          href="/menu"
+          className="order-btn text-yellow-300 px-6 py-3 md:mr-4 mb-2 md:mb-0 rounded-lg focus:outline-none hover:bg-red-400 block md:inline-block text-center"
+        >
           Menu
-         </a>
-        
-        </button>
-        {/* <a href="/menu" className="menu-btn bg-gray-800 text-white px-6 py-3 rounded-lg focus:outline-none hover:bg-gray-900">
-          Menu
-        </a> */}
+        </a>
       </div>
 
       {/* Image */}
-      <div className="banner-image w-full md:w-1/2 mt-8 md:mt-0">
+      <div className="banner-image w-full md:w-1/2 mt-8 md:mt-0 mb-10">
         <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6SUEUFdy2lNSNXfsmXAvKpSXzLoU9MgratWIDh6K2aw&s"
+          src="https://t3.ftcdn.net/jpg/01/86/33/72/360_F_186337209_9rbcMLu3wGCDNaEoK1jO0aNzb0pv7Xs7.jpg"
           alt="banner"
           className="w-full rounded-3xl"
         />
@@ -37,3 +34,5 @@ export const Banner = () => {
     </div>
   );
 };
+
+export default Banner;
