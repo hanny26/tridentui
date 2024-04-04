@@ -5,11 +5,15 @@ const connectDB = require("./db/db");
 const app = express();
 const productRouter = require("./routes/productRouter");
 
+
+
+
 var corsOptions = {
   origin: "http://localhost:5173",
 };
 
 app.use(cors(corsOptions));
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
